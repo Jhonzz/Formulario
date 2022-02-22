@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Formulário</title>
+  </head>
+  <body>
+<header>
+  
+</header>
+    <form>
+     <main>
+      <h1>Formulário</h1>
+
+      <label for="Nomesobrenome"
+        >Nome e sobrenome<input type="text" id="Nomesobrenome" class="inputpadrao" placeholder="Seu nome e sobrenome" required />
+      </label>
+
+      <label for="email">Email<input type="email" id="email" class="inputpadrao" placeholder="EXEMPLO@GMAIL.COM" required/> </label>
+
+      <label for="Telefone">Telefone para contato <input type="tel" id="Telefone" class="inputpadrao" placeholder="(XX) XXXX-XXXX" required></label>
+   
+      <fieldset>
+          <legend>Como você prefere nosso contato?</legend>
+        <label for="radio-whats"><input type="radio" id="radio-whats" class="radio-contato" name="contato" checked>Whatsapp</label>
+     
+     <label for="radio-email"><input type="radio" id="radio-email" class="radio-contato" name="contato" value="email">Email</label>
+
+     <label for="radio-telefone"><input type="radio" name="contato" id="radio-telefone" class="radio-contato" value="tel">Telefone</label>
+      </fieldset>
+    </label>
+  
+    <fieldset>
+      <legend>Em qual horário gostara de ser atendido?</legend>
+    <select>
+      <option>Manhã</option>
+      <option>Tarde</option>
+      <option>Noite</option>
+    </select>
+    </fieldset>
+
+    <label for="checkbox"><input type="checkbox" class="checkbox">Gostaria de receber nossas novidades por email?</label>
+
+      <input type="submit" value="Enviar formulário" class="enviar">
+    </form>
+    <table>
+      <thead>
+        <th>Dia</th>
+        <th>Horário</th>
+      </thead>
+      <tbody>
+       <tr>
+         <td>Segunda-feira</td>
+         <td>8h ~ 19h</td>
+       </tr>
+
+       <tr>
+         <td> Quarta-feira</td>
+         <td>9h ~ 21h</td>
+       </tr>
+
+       <tr>
+         <td>Sexta-feira</td>
+         <td>8h ~ 20h</td>
+       </tr>
+
+      </tbody>
+    </table>
+  </main>
+  <footer>
+
+  </footer>
+  </body>
+</html>
